@@ -19,4 +19,22 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="135dp"
+        android:layout_height="90dp"
+        android:max="100"
+        android:progress="20"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Progress"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="427dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
