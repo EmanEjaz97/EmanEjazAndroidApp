@@ -19,22 +19,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="135dp"
-        android:layout_height="90dp"
-        android:max="100"
-        android:progress="20"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="413dp" />
-
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up Progress"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="427dp" />
+        android:background="#000000"
+        android:text="I'm Working"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="411dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
