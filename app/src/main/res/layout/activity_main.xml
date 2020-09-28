@@ -23,7 +23,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#000000"
+        android:background="#FF0303"
         android:text="I'm Working"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#000000"
